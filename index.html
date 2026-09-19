@@ -1,32 +1,68 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<title>Nx7 Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nx7 Dashboard - v4rtexXD7</title>
 <style>
-body { background:#000; color:#fff; font-family:Arial; text-align:center; }
-h1 { color:#00aaff; font-size:50px; }
-.card { background:#111; border:1px solid #00aaff; border-radius:15px; padding:20px; margin:20px auto; max-width:700px; }
-img { max-width:100%; border-radius:10px; }
-a.button { background:#00aaff; color:#000; padding:15px 30px; border-radius:10px; text-decoration:none; font-weight:bold; display:inline-block; margin-top:20px; }
+body { background:#000; color:#fff; font-family: 'Segoe UI', Arial; margin:0; padding:0; text-align:center; }
+.hero { padding:60px 20px; background: radial-gradient(circle at center, #0a2a4a 0%, #000 70%); }
+h1 { color:#00aaff; font-size:56px; margin:0; letter-spacing:4px; text-shadow:0 0 20px #00aaff; }
+.subtitle { color:#888; margin-top:10px; font-size:18px; }
+.tag { display:inline-block; background:#111; border:1px solid #222; padding:6px 14px; border-radius:20px; font-size:13px; margin:5px; color:#aaa; }
+.card { background:#0c0c0c; border:1px solid #1e1e1e; border-radius:20px; padding:30px; margin:30px auto; max-width:900px; text-align:left; box-shadow:0 0 30px #00aaff18; }
+.card h2 { color:#00aaff; margin-top:0; }
+img { width:100%; border-radius:16px; border:1px solid #222; margin-top:15px; box-shadow:0 0 25px #000; }
+.evo { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+@media(max-width:700px){ .evo { grid-template-columns:1fr; } }
+.btn { background:#00aaff; color:#000; padding:16px 32px; border-radius:14px; text-decoration:none; font-weight:bold; display:inline-block; margin:10px; font-size:16px; }
+.btn2 { background:#111; color:#fff; border:1px solid #333; }
+.btn:hover { transform:scale(1.05); }
+.footer { color:#333; padding:40px; font-size:14px; }
 </style>
 </head>
 <body>
-<h1>Nx7 DASHBOARD</h1>
-<p>Built in Python in 7 days — Harlow, UK</p>
-
-<div class="card">
-<h2>v2.0 — Current</h2>
-<p>OLED Pitch Black theme • Live CPU/RAM/Disk/Network • Built-in Browser • Live Weather</p>
-<p><i>(Upload your v2 screenshot here)</i></p>
+<div class="hero">
+<h1>Nx7</h1>
+<p class="subtitle">Dashboard v2.0 — Built in Python in 7 Days | Harlow, UK<br>by v4rtexXD7</p>
+<div style="margin-top:20px;">
+<span class="tag">Python + CustomTkinter</span>
+<span class="tag">OLED Pitch Black</span>
+<span class="tag">Live CPU / RAM / Disk / Network</span>
+<span class="tag">Built-in Browser</span>
+<span class="tag">Weather + AQI</span>
+</div>
+<br><br>
+<a class="btn" href="https://github.com/v4rtexXD7/Nx7-Dashboard">View on GitHub</a>
+<a class="btn btn2" href="https://github.com/v4rtexXD7/Nx7-Dashboard/releases">Download .EXE</a>
 </div>
 
 <div class="card">
-<h2>v1.0 — Where it started</h2>
-<p>System Monitor & Disk Checker</p>
-<p><i>(Upload your v1 screenshot here)</i></p>
+<h2>🚀 The Evolution — 7 Days of Building</h2>
+<div class="evo">
+<div>
+<h3 style="color:#aaa;">v1.0 — Where it Started</h3>
+<p style="color:#666; font-size:14px;">Simple white System Monitor & Disk Checker. RAM + C: drive usage with CHKDSK button.</p>
+<img src="v1.jpg" alt="Nx7 v1">
+</div>
+<div>
+<h3 style="color:#00aaff;">v2.0 — OLED Beast Mode</h3>
+<p style="color:#888; font-size:14px;">Pitch black, CPU core breakdown (8 cores), live Harlow weather 15.9°C, download/upload speed, Compact Mode, Custom Accent.</p>
+<img src="v2.jpg" alt="Nx7 v2">
+</div>
+</div>
 </div>
 
-<a class="button" href="https://github.com/v4rtexXD7/Nx7-Dashboard">View on GitHub</a>
+<div class="card">
+<h2>⚡ Features in v2.0</h2>
+<p>✅ SYSTEM OVERVIEW — Overall CPU %, CPU Cores Breakdown with blue bars<br>
+✅ Live Weather: Harlow, UK + Humidity + Air Quality Index<br>
+✅ Network: Download 279.2 KB/s / Upload 22.1 KB/s<br>
+✅ RAM: 6.66 GB / 7.92 GB (84.1%) + Disk (C:) 95.8 / 118.2 GB (81%)<br>
+✅ Sidebar: Overview, Processes, Browse NX Web, Tools Audio, Hardware Info<br>
+✅ OLED Pitch Black + Custom Accent + Compact Mode</p>
+</div>
 
+<div class="footer">© 2026 v4rtexXD7 — Nx7 Dashboard | Made with 💙 in Harlow, England</div>
 </body>
 </html>
